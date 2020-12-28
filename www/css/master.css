@@ -1,0 +1,34 @@
+html {
+  background-color: #32343d;
+  color: #636363;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+button {
+  background-color: #636363;
+  color:#32343d;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 1cm;
+  border: none;
+  cursor: pointer;
+}
+#startApp {
+  display: none;
+}
+input {
+  background-color: #32343d;
+  color:#636363;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 1cm;
+  border: none;
+  placeholder: #636363;
+}
