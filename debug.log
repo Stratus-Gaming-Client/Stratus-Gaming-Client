@@ -4799,3 +4799,180 @@ Created()
 - 21:56:52.078 INFO: POST 200 /update-profile.php
 - 21:56:55.265 INFO: GET 200 /css/master.css
 - 21:56:55.296 INFO: GET 404 /logo.png
+- 20:13:44.078 INFO: --------------------------------------------------------
+- 20:13:44.110 INFO: Started application
+- 20:13:44.110 INFO: Logging to: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log
+- 20:13:44.110 INFO: Log level = DEBUG4
+- 20:13:44.110 INFO: Starting Mongoose 3.9c web server
+- 20:13:44.110 INFO: WWW directory: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\www
+- 20:13:44.110 INFO: Index files: index.html,index.php
+- 20:13:44.110 INFO: CGI interpreter: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\php\php-cgi.exe
+- 20:13:44.110 INFO: CGI pattern: **.php$
+- 20:13:44.110 INFO: Hide files patterns: 
+- 20:13:44.110 INFO: CGI environment variables set: TMP=C:\Users\brend\AppData\Local\Temp\,TEMP=C:\Users\brend\AppData\Local\Temp\,TMPDIR=C:\Users\brend\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:13:45.250 INFO: Web server url: http://127.0.0.1:80/
+- 20:13:45.250 INFO: remote_debugging_port = 52362
+- 20:13:45.391 DEBUG: Command line string for the browser process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --remote-debugging-port=52362
+- 20:13:46.000 DEBUG: Command line string for the gpu-process process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7925 --gpu-driver-date=2-19-2020 --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --service-request-channel-token=D437D543EAE94513A26F655C340AFB48 --mojo-platform-channel-handle=1732 /prefetch:2
+- 20:13:47.281 DEBUG: App::OnContextInitialized()
+- 20:13:47.281 DEBUG: Window max width/height = 1280/680
+- 20:13:47.281 DEBUG: GetBrowserWindow(): not found, hwnd = 2633192
+- 20:13:47.281 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:13:47.281 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 20:13:47.281 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 20:13:47.281 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:13:47.281 DEBUG: StoreBrowserWindow(): hwnd = 2633192
+- 20:13:48.719 DEBUG: ClientHandler::OnAfterCreated()
+- 20:13:48.719 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:13:48.000 DEBUG: Command line string for the renderer process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=renderer --no-sandbox --primordial-pipe-token=14DB096657AD9E4BFF33689E523C39EF --lang=en-US --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=14DB096657AD9E4BFF33689E523C39EF --renderer-client-id=3 --mojo-platform-channel-handle=2324 /prefetch:1
+- 20:13:48.875 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:13:49.093 DEBUG: OnBrowserCreated()
+[1228/201351.211:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:13:54.203 INFO: GET 200 /
+- 20:13:54.313 INFO: GET 200 /css/master.css
+- 20:13:54.937 DEBUG: OnContextCreated()
+[1228/201356.147:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected end of input", source:  (1)
+- 20:14:00.187 DEBUG: OnContextCreated()
+- 20:14:00.047 DEBUG: OnLoadError, errorCode=-105, failedUrl=http://app.stratus.ga/
+- 13:00:29.000 INFO: --------------------------------------------------------
+- 13:00:29.000 INFO: Started application
+- 13:00:29.000 INFO: Logging to: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log
+- 13:00:29.000 INFO: Log level = DEBUG4
+- 13:00:29.000 INFO: Starting Mongoose 3.9c web server
+- 13:00:29.000 INFO: WWW directory: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\www
+- 13:00:29.000 INFO: Index files: index.html,index.php
+- 13:00:29.000 INFO: CGI interpreter: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\php\php-cgi.exe
+- 13:00:29.000 INFO: CGI pattern: **.php$
+- 13:00:29.000 INFO: Hide files patterns: 
+- 13:00:29.000 INFO: CGI environment variables set: TMP=C:\Users\brend\AppData\Local\Temp\,TEMP=C:\Users\brend\AppData\Local\Temp\,TMPDIR=C:\Users\brend\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:00:29.032 INFO: Web server url: http://127.0.0.1:80/
+- 13:00:29.032 INFO: remote_debugging_port = 51196
+- 13:00:29.032 DEBUG: Command line string for the browser process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --remote-debugging-port=51196
+- 13:00:29.078 DEBUG: App::OnContextInitialized()
+- 13:00:29.078 DEBUG: Window max width/height = 1280/680
+- 13:00:29.078 DEBUG: GetBrowserWindow(): not found, hwnd = 525146
+- 13:00:29.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:00:29.078 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 13:00:29.078 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 13:00:29.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:00:29.078 DEBUG: StoreBrowserWindow(): hwnd = 525146
+- 13:00:29.157 DEBUG: ClientHandler::OnAfterCreated()
+- 13:00:29.157 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:00:29.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:00:29.015 DEBUG: Command line string for the renderer process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=renderer --no-sandbox --primordial-pipe-token=9D12A7C94B148C608D30C04D5773FB85 --lang=en-US --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9D12A7C94B148C608D30C04D5773FB85 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 13:00:29.000 DEBUG: Command line string for the gpu-process process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7925 --gpu-driver-date=2-19-2020 --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --service-request-channel-token=D5459E8C1C2041355EB2CD1924E3D473 --mojo-platform-channel-handle=1724 /prefetch:2
+- 13:00:29.047 DEBUG: OnBrowserCreated()
+[1229/130029.836:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:00:31.672 INFO: GET 200 /
+- 13:00:31.672 INFO: GET 304 /css/master.css
+- 13:00:31.359 DEBUG: OnContextCreated()
+[1229/130032.586:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected end of input", source:  (1)
+- 13:00:37.500 DEBUG: OnContextCreated()
+- 13:00:37.813 DEBUG: OnLoadError, errorCode=-105, failedUrl=http://app.stratus.ga/
+- 20:11:15.000 INFO: --------------------------------------------------------
+- 20:11:15.000 INFO: Started application
+- 20:11:15.000 INFO: Logging to: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log
+- 20:11:15.000 INFO: Log level = DEBUG4
+- 20:11:15.000 INFO: Starting Mongoose 3.9c web server
+- 20:11:15.015 INFO: WWW directory: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\www
+- 20:11:15.015 INFO: Index files: index.html,index.php
+- 20:11:15.015 INFO: CGI interpreter: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\php\php-cgi.exe
+- 20:11:15.015 INFO: CGI pattern: **.php$
+- 20:11:15.015 INFO: Hide files patterns: 
+- 20:11:15.015 INFO: CGI environment variables set: TMP=C:\Users\brend\AppData\Local\Temp\,TEMP=C:\Users\brend\AppData\Local\Temp\,TMPDIR=C:\Users\brend\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:11:15.031 INFO: Web server url: http://127.0.0.1:80/
+- 20:11:15.031 INFO: remote_debugging_port = 51220
+- 20:11:15.031 DEBUG: Command line string for the browser process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --remote-debugging-port=51220
+- 20:11:15.109 DEBUG: App::OnContextInitialized()
+- 20:11:15.109 DEBUG: Window max width/height = 1280/680
+- 20:11:15.109 DEBUG: GetBrowserWindow(): not found, hwnd = 3147528
+- 20:11:15.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:11:15.109 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 20:11:15.109 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 20:11:15.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:11:15.109 DEBUG: StoreBrowserWindow(): hwnd = 3147528
+- 20:11:16.015 DEBUG: Command line string for the gpu-process process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7925 --gpu-driver-date=2-19-2020 --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --service-request-channel-token=F8F02C8EB40F769E3E95149DB035F8E6 --mojo-platform-channel-handle=1720 /prefetch:2
+- 20:11:16.515 DEBUG: ClientHandler::OnAfterCreated()
+- 20:11:16.515 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:11:16.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:11:16.000 DEBUG: Command line string for the renderer process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=renderer --no-sandbox --primordial-pipe-token=52073D91C96D3245AEC7C1B1287B26B2 --lang=en-US --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=52073D91C96D3245AEC7C1B1287B26B2 --renderer-client-id=3 --mojo-platform-channel-handle=2328 /prefetch:1
+- 20:11:18.719 DEBUG: OnBrowserCreated()
+[1230/201119.219:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:11:20.843 INFO: GET 200 /
+- 20:11:21.203 INFO: GET 304 /css/master.css
+- 20:11:21.266 DEBUG: OnContextCreated()
+[1230/201123.353:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected end of input", source:  (1)
+- 20:11:26.922 DEBUG: OnContextCreated()
+- 20:11:28.437 DEBUG: OnLoadingStateChange: loading=0, url=http://app.stratus.ga/
+- 20:11:28.437 DEBUG: OnLoadingStateChange: loading=1, url=http://app.stratus.ga/
+- 20:11:29.829 DEBUG: OnContextCreated()
+- 20:11:29.437 INFO: GET 304 /css/master.css
+- 20:11:29.453 DEBUG: OnLoadingStateChange: loading=0, url=http://app.stratus.ga/?i=1
+- 20:21:39.250 DEBUG: WM_DESTROY
+- 20:21:39.250 DEBUG: RemoveBrowserWindow(): hwnd = 3147528
+- 20:21:39.250 INFO: Stopping Mongoose web server
+- 20:21:39.250 DEBUG: Mongoose webserver stopped immediately
+- 20:21:39.250 DEBUG: OnBeforeClose() hwnd=1771238
+- 20:21:39.250 DEBUG: RemoveBrowserWindow(): hwnd = 1771238
+- 20:21:39.250 DEBUG: GetBrowserWindow(): not found, hwnd = 1771238
+- 20:21:39.250 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 20:21:39.250 DEBUG: Calling CefQuitMessageLoop()
+- 20:21:40.594 DEBUG: OnBrowserDestroyed()
+- 20:21:40.625 INFO: Ended application
+- 20:21:40.625 INFO: --------------------------------------------------------
+- 20:26:23.000 INFO: --------------------------------------------------------
+- 20:26:23.000 INFO: Started application
+- 20:26:23.000 INFO: Logging to: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log
+- 20:26:23.000 INFO: Log level = DEBUG4
+- 20:26:23.000 INFO: Starting Mongoose 3.9c web server
+- 20:26:23.000 INFO: WWW directory: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\www
+- 20:26:23.000 INFO: Index files: index.html,index.php
+- 20:26:23.000 INFO: CGI interpreter: C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\php\php-cgi.exe
+- 20:26:23.000 INFO: CGI pattern: **.php$
+- 20:26:23.000 INFO: Hide files patterns: 
+- 20:26:23.000 INFO: CGI environment variables set: TMP=C:\Users\brend\AppData\Local\Temp\,TEMP=C:\Users\brend\AppData\Local\Temp\,TMPDIR=C:\Users\brend\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:26:23.016 INFO: Web server url: http://127.0.0.1:80/
+- 20:26:23.031 INFO: remote_debugging_port = 57678
+- 20:26:23.031 DEBUG: Command line string for the browser process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --remote-debugging-port=57678
+- 20:26:23.078 DEBUG: App::OnContextInitialized()
+- 20:26:23.078 DEBUG: Window max width/height = 1280/680
+- 20:26:23.094 DEBUG: GetBrowserWindow(): not found, hwnd = 264594
+- 20:26:23.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:26:23.094 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 20:26:23.094 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 20:26:23.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:26:23.094 DEBUG: StoreBrowserWindow(): hwnd = 264594
+- 20:26:23.172 DEBUG: ClientHandler::OnAfterCreated()
+- 20:26:23.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:26:23.188 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:26:23.016 DEBUG: Command line string for the renderer process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=renderer --no-sandbox --primordial-pipe-token=95A55142A90B4D5850D09F861C47F228 --lang=en-US --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=95A55142A90B4D5850D09F861C47F228 --renderer-client-id=3 --mojo-platform-channel-handle=2320 /prefetch:1
+- 20:26:23.063 DEBUG: OnBrowserCreated()
+- 20:26:23.000 DEBUG: Command line string for the gpu-process process: "C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\stratus.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5917 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7925 --gpu-driver-date=2-19-2020 --lang=en-US --log-file="C:\Users\brend\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\Stratus\debug.log" --service-request-channel-token=B3916DFA8FBE521068F22A29907288E0 --mojo-platform-channel-handle=1720 /prefetch:2
+[1230/202623.868:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:26:24.516 INFO: GET 200 /
+- 20:26:24.516 INFO: GET 304 /css/master.css
+- 20:26:24.250 DEBUG: OnContextCreated()
+[1230/202626.468:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected end of input", source:  (1)
+- 20:26:27.266 DEBUG: OnContextCreated()
+- 20:26:27.547 INFO: GET 304 /css/master.css
+- 20:26:28.844 DEBUG: OnLoadingStateChange: loading=0, url=http://app.stratus.ga/
+- 20:26:32.328 INFO: GET 304 /css/master.css
+- 20:27:36.422 INFO: GET 200 /css/master.css
+- 20:28:09.047 INFO: POST 200 /install.php
+- 20:28:09.078 INFO: GET 200 /css/master.css
+- 20:28:09.078 INFO: GET 404 /favicon.ico
+- 20:31:35.641 INFO: POST 200 /install.php
+- 13:49:11.031 INFO: POST 200 /install.php
+- 13:49:12.000 INFO: GET 200 /css/master.css
+- 13:49:12.063 INFO: GET 404 /favicon.ico
+- 13:51:35.719 DEBUG: WM_DESTROY
+- 13:51:35.719 DEBUG: RemoveBrowserWindow(): hwnd = 264594
+- 13:51:35.719 INFO: Stopping Mongoose web server
+- 13:51:35.719 DEBUG: Mongoose webserver stopped immediately
+- 13:51:35.828 DEBUG: OnBeforeClose() hwnd=461146
+- 13:51:35.828 DEBUG: RemoveBrowserWindow(): hwnd = 461146
+- 13:51:35.828 DEBUG: GetBrowserWindow(): not found, hwnd = 461146
+- 13:51:35.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:51:35.828 DEBUG: Calling CefQuitMessageLoop()
+- 13:51:38.985 INFO: Ended application
+- 13:51:38.985 INFO: --------------------------------------------------------
